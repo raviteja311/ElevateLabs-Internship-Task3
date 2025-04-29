@@ -25,6 +25,16 @@ You need Python and these libraries:
 *   seaborn
 
 Install them using pip:
-```bash
-pip install pandas numpy scikit-learn matplotlib seaborn jupyterlab
 
+<pre> pip install pandas numpy scikit-learn matplotlib seaborn jupyterlab  </pre>
+
+## How to Run
+Make sure you have Python and the libraries above installed.
+Download the Task3.ipynb notebook file.
+Download the Housing.csv data file and place it in the same folder as the notebook.
+Open and run the notebook using Jupyter Lab or Jupyter Notebook:
+
+<pre> jupyter notebook Task3.ipynb </pre>
+
+## Results
+The model achieves an R² score of about 0.69 on the test set, meaning it explains roughly 69% of the variation in house prices. Features like the house area, number of bathrooms, and air conditioning are shown to be important predictors.
